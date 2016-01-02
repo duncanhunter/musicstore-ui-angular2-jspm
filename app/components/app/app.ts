@@ -10,10 +10,10 @@ import template from './app.html!text';
 import css from './app.css!css';
 
 @Component({
+    directives: [ROUTER_DIRECTIVES, CORE_DIRECTIVES, LoggedInRouterOutlet],
     selector: 'app',
-    template: template,
     style: [css],
-    directives: [ROUTER_DIRECTIVES, CORE_DIRECTIVES, LoggedInRouterOutlet]
+    template: template
 })
 
 @RouteConfig(APP_ROUTES)

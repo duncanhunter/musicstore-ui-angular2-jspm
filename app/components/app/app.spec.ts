@@ -1,7 +1,7 @@
 import { AppComponent } from './app';
 
 describe('App component', () => {
-    it('should greet', () => {
+    it('should be true', () => {
         expect(true).toBe(true);
     });
 });

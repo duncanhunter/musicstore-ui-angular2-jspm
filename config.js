@@ -36,6 +36,8 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "es6-promise": "npm:es6-promise@3.0.2",
     "es6-shim": "npm:es6-shim@0.33.13",
+    "false": "npm:babel-core@5.8.34",
+    "false-runtime": "npm:babel-runtime@5.8.34",
     "font-awesome": "npm:font-awesome@4.5.0",
     "frankwallis/plugin-typescript": "github:frankwallis/plugin-typescript@2.4.3",
     "hubspot/tether": "github:hubspot/tether@1.1.1",
