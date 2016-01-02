@@ -1,0 +1,49 @@
+{
+  "name": "ng2",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "jspm install",
+    "start": "live-server --port=5000 --host=localhost",
+    "bundle": "jspm bundle-sfx shims + app build/build-sfx.js --minify && live-server --open=./index-sfx.html --port=5000 --host=localhost"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.0",
+      "bootstrap": "github:twbs/bootstrap",
+      "clean-css": "npm:clean-css@^3.4.8",
+      "css": "github:systemjs/plugin-css@^0.1.20",
+      "es6-promise": "npm:es6-promise@^3.0.2",
+      "es6-shim": "npm:es6-shim@^0.33.13",
+      "font-awesome": "npm:font-awesome@^4.5.0",
+      "frankwallis/plugin-typescript": "github:frankwallis/plugin-typescript@2.4.3",
+      "hubspot/tether": "github:hubspot/tether@^1.1.1",
+      "jquery": "github:components/jquery@^2.1.4",
+      "moment": "npm:moment@^2.10.6",
+      "plugin-typescript": "npm:plugin-typescript@2.0.3",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "rxjs": "npm:rxjs@^5.0.0-beta.0",
+      "text": "github:systemjs/plugin-text@^0.0.4",
+      "toastr": "github:CodeSeven/toastr@^2.1.2",
+      "twbs/bootstrap": "github:twbs/bootstrap@4.0.0-alpha.2",
+      "zone.js": "npm:zone.js@^0.5.10"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.7.5"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "es6-shim": "^0.33.13",
+    "jspm": "^0.16.19",
+    "karma": "^0.13.15",
+    "karma-phantomjs2-launcher": "^0.3.2",
+    "live-server": "^0.9.0",
+    "phantomjs2": "^2.0.2",
+    "reflect-metadata": "^0.1.2",
+    "typescript": "^1.7.5"
+  }
+}
