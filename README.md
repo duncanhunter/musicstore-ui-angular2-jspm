@@ -21,6 +21,9 @@ npm start
 ```bash
 npm run bundle
 ```
+```bash
+npm run bundle-sfx
+```
 
 ## 3. Show module relationships
 Execute in browser dev tools console
