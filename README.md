@@ -28,8 +28,12 @@ npm run bundle-sfx
 
 ## 3. Show module relationships
 Execute in browser dev tools console
+optionally pass include or exclude string filters from module path name
 ```javascript
-showModuleRelationships("includes this string from module path name", "excludes this string from module path name")
+showModuleRelationships()
+```
+```javascript
+showModuleRelationships("/checkout","/cart")
 ```
 
 ## 4. Run unit tests with 
