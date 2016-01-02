@@ -21,6 +21,7 @@ npm start
 ```bash
 npm run bundle
 ```
+Single file output
 ```bash
 npm run bundle-sfx
 ```
@@ -31,10 +32,16 @@ Execute in browser dev tools console
 showModuleRelationships("includes this string from module path name", "excludes this string from module path name")
 ```
 
-## 4. Run unit tests with http://wallabyjs.com/
+## 4. Run unit tests with 
+### With http://wallabyjs.com/
 Install wallabyjs for your IDE
 Start wallabyjs
 Browse to any unit tests in the app folder ending in .spec
+### With karma test runner
+```bash
+npm test
+```
+
 
 ## Todo
 1. Sort css order
