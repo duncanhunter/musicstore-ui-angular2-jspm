@@ -18,7 +18,7 @@ System.config({
     "app": {
       "main": "boot",
       "defaultExtension": "ts",
-      "modules": {
+      "meta": {
         "*.ts": {
           "loader": "ts"
         }

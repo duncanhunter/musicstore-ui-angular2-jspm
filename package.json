@@ -8,7 +8,8 @@
   "scripts": {
     "postinstall": "jspm install",
     "start": "live-server --port=5000 --host=localhost",
-    "bundle": "jspm bundle-sfx shims + app build/build-sfx.js --minify && live-server --open=./index-sfx.html --port=5000 --host=localhost"
+    "bundle-sfx": "jspm bundle-sfx shims + app build/build-sfx.js --minify && live-server --open=./index-sfx.html --port=5000 --host=localhost",
+    "bundle": "jspm bundle shims + app build/build.js --minify  && live-server --open=./index-build.html --port=5000 --host=localhost"
   },
   "jspm": {
     "dependencies": {
