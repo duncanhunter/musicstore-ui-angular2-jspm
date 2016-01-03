@@ -5,16 +5,16 @@ import {Observable} from 'rxjs/Rx';
 import {AlbumService} from '../../services/album/album.service';
 import {Album} from '../../models';
 import template from './search.html!text';
-import css from './search.css!css';
+import css from './search.css!text';
 
 @Component({
-    selector: 'search',
-    template: template,
-    style: [css],
-    directives: [FORM_DIRECTIVES, NgFor, NgIf],
     changeDetection: ChangeDetectionStrategy.OnPush,
+    directives: [FORM_DIRECTIVES, NgFor, NgIf],
     pipes: [AsyncPipe],
-    providers: [AlbumService]
+    providers: [AlbumService],
+    selector: 'search',
+    styles: [ css ],
+    template: template,
 })
 
 export class Search {

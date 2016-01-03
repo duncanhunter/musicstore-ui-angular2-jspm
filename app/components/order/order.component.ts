@@ -3,12 +3,12 @@ import {CORE_DIRECTIVES, DatePipe} from 'angular2/common';
 import {OrderService} from '../../services/order/order.service';
 import {Order} from '../../models';
 import template from './order.component.html!text';
-import css from './order.component.css!css';
+import css from './order.component.css!text';
 
 @Component({
     selector: 'orders',
     template: template,
-    style: [css],
+    styles: [ css ],
     directives: [CORE_DIRECTIVES],
     pipes: [DatePipe]
 })

@@ -6,12 +6,12 @@ import {GenreService} from '../../services/genre/genre.service';
 import {Routes} from '../../route.config';
 import {AlbumSummary} from '../album/album-summary';
 import template from './genre-detail.component.html!text';
-import css from './genre-detail.component.css!css';
+import css from './genre-detail.component.css!text';
 
 @Component({
     selector: 'genre-detail',
     template: template,
-    style: [css],
+    styles: [ css ],
     directives: [CORE_DIRECTIVES, AlbumSummary],
     inputs: ['genre']
 })

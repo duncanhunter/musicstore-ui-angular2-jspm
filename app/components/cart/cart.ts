@@ -4,11 +4,11 @@ import {CartItems} from '../../models';
 import {Routes} from '../../route.config';
 import {RouteParams, Router} from 'angular2/router';
 import template from './cart.html!text';
-import css from './cart.css!css';
+import css from './cart.css!text';
 @Component({
     selector: 'cart',
     template: template,
-    style: [css],
+    styles: [ css ],
     directives: []
 })
 export class CartComponent implements OnInit {

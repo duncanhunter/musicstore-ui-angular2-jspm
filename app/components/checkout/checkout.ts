@@ -5,12 +5,12 @@ import {CheckoutService} from '../../services/checkout/checkout.service';
 import {RouteParams, Router} from 'angular2/router';
 import {Routes} from '../../route.config';
 import template from './checkout.html!text';
-import css from './checkout.css!css';
+import css from './checkout.css!text';
 
 @Component({
     selector: 'checkout',
     template: template,
-    style: [css],
+    styles: [ css ],
     directives: [CORE_DIRECTIVES, FORM_DIRECTIVES, NgForm, NgFormControl]
 })
 export class CheckoutComponent {

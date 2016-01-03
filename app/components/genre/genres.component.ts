@@ -5,12 +5,12 @@ import {GenreService} from '../../services/genre/genre.service';
 import {GenreDetailComponent} from './genre-detail.component';
 import {Genre} from '../../models';
 import template from './genres.component.html!text';
-import css from './genres.component.css!css';
+import css from './genres.component.css!text';
 
 @Component({
     selector: 'genres',
     template: template,
-    style: [css],
+    styles: [ css ],
     directives: [CORE_DIRECTIVES, FORM_DIRECTIVES, GenreDetailComponent, ROUTER_DIRECTIVES]
 })
 @RouteConfig([

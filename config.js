@@ -26,6 +26,14 @@ System.config({
     }
   },
 
+  meta: {
+    "jspm_packages/github/twbs/bootstrap@4.0.0-alpha.2/js/bootstrap.js": {
+      "deps": [
+        "jspm_packages/github/hubspot/tether@1.1.1/dist/js/tether.js"
+      ]
+    }
+  },
+
   map: {
     "angular2": "npm:angular2@2.0.0-beta.0",
     "babel": "npm:babel-core@6.3.26",
@@ -39,8 +47,6 @@ System.config({
     "false": "npm:babel-core@5.8.34",
     "false-runtime": "npm:babel-runtime@5.8.34",
     "font-awesome": "npm:font-awesome@4.5.0",
-    "frankwallis/plugin-typescript": "github:frankwallis/plugin-typescript@2.4.3",
-    "hubspot/tether": "github:hubspot/tether@1.1.1",
     "image": "github:systemjs/plugin-image@0.1.0",
     "jquery": "github:components/jquery@2.1.4",
     "live-server": "npm:live-server@0.8.1",
@@ -48,10 +54,10 @@ System.config({
     "plugin-typescript": "npm:plugin-typescript@2.0.3",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
     "rxjs": "npm:rxjs@5.0.0-beta.0",
+    "tether": "github:hubspot/tether@1.1.1",
     "text": "github:systemjs/plugin-text@0.0.4",
     "toastr": "github:CodeSeven/toastr@2.1.2",
     "ts": "github:frankwallis/plugin-typescript@2.4.3",
-    "twbs/bootstrap": "github:twbs/bootstrap@4.0.0-alpha.2",
     "typescript": "npm:typescript@1.7.5",
     "whatwg-fetch": "npm:whatwg-fetch@0.10.0",
     "zone.js": "npm:zone.js@0.5.10",

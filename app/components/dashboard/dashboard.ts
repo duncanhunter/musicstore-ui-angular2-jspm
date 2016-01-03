@@ -7,12 +7,12 @@ import {Routes} from '../../route.config';
 import {AlbumSummary} from '../album/album-summary';
 import {Search} from '../search/search';
 import template from './dashboard.html!text';
-import css from './dashboard.css!css';
+import css from './dashboard.css!text';
 
 @Component({
     selector: 'dashboard',
     template: template,
-    style: [css],
+    styles: [ css ],
     directives: [CORE_DIRECTIVES, AlbumSummary, Search ]
 })
 export class DashboardComponent implements OnInit {

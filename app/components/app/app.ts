@@ -7,12 +7,12 @@ import {Genre, User} from '../../models';
 import {AUTH0_DOMAIN, AUTH0_CLIENT_ID } from '../../config';
 import {LoggedInRouterOutlet} from './LoggedInOutlet';
 import template from './app.html!text';
-import css from './app.css!css';
+import css from './app.css!text';
 
 @Component({
     directives: [ROUTER_DIRECTIVES, CORE_DIRECTIVES, LoggedInRouterOutlet],
     selector: 'app',
-    style: [css],
+    styles: [ css ],
     template: template
 })
 

@@ -12,8 +12,6 @@ module.exports = function (config) {
         },
 
         jspm: {
-            config: "config.js",
-            packages: "jspm_packages/",
             serveFiles: [
                 "app/**/*.ts",
                 'app/**/!(*.spec).ts'
